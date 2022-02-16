@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background = "#ffffff"
+  android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+  
+  <Button
+android:layout_width = "wrap_content"
+android:layout_height = "wrap_content"
+android:layout_marginTop = "5dp"
+android:background = "@drawable/backhome"
+android:onClick = "kembali"
+/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/background"
+            android:orientation="vertical">
+
+
+            <RadioGroup
+                android:id="@+id/RadioGroup01"
+                android:layout_width="match_parent"
+                android:layout_height="719dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/gejala1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/gejala15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></CheckBox>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/txtHasil"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnSakit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+    </ScrollView>
+  
+</LinearLayout>
