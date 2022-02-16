@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background = "#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width = "fill_parent"
+        android:layout_height= "wrap_content"
+        >
+        <TableRow>
+            <Button
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_marginTop = "5dp"
+                android:background = "@drawable/backhome"
+                android:onClick = "kembali"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width = "fill_parent"
+        android:layout_height= "fill_parent"
+        >
+
+        <LinearLayout
+            android:layout_marginLeft = "5dp"
+            android:layout_marginRight= "5dp"
+            android:layout_marginTop = "15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity = "center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background = "@drawable/background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/HJudul1"
+                android:layout_width="wrap_content"
+                android:layout_height="17px"
+                android:text="Nama Penyakit:"
+                android:textColor = "#000000"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/txtNamaPenyakit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor = "#000000"
+                android:text="Keringat Biasa"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/HjudulGejala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor = "#000000"
+                android:text="Gejala Umum:"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtGejalaUmum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor = "#000000"
+                android:text="keluar keringat dari badan/ketiak dan gatal-gatal"
+                />
+
+            <TextView
+                android:id="@+id/Hjudulsifat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor = "#000000"
+                android:text="Sifat Penyakit:"
+                />
+
+            <TextView
+                android:id="@+id/txtSifatPenyakit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor = "#000000"
+                android:text="Tidak menular"
+                />
+
+
+            <TextView
+                android:id="@+id/Hjudulpengobtan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor = "#000000"
+                android:text="Pengobatan:"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/txtPengobatan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor = "#000000"
+                android:text="Mandi min 3kali sehari,menggunakan deodorant"
+                >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
